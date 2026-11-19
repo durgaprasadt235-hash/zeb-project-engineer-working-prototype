@@ -358,6 +358,13 @@ export function App() {
               {t.label}
             </button>
           ))}
+          <a
+            href="/docs.html"
+            className="px-3 py-2 text-sm font-semibold"
+            style={{ borderBottom: "3px solid transparent", color: "var(--dim)" }}
+          >
+            Documentation
+          </a>
         </nav>
       </header>
 
